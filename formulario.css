@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+#titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(245, 245, 245);
+    margin-left: 5%;
+}
+
+#subtitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: rgb(214, 211, 216);
+    margin-left: 8%;
+    
+}
+
+.campo{
+    margin-bottom: 1em;
+    padding: 1rem;
+    margin-top: 2%;
+    margin-left: 36%;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color:#f0eff1;
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+.campo select option {
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+}
+#checkbox{
+    display: inline-block;
+}
+
+fieldset{
+    border: 0;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+
+body{
+   
+    color: rgb(253, 251, 255);
+    justify-content: center;
+    font-size: 1.5em;
+    padding-top: 5vh;
+    background-color: rgb(54, 208, 219);
+   /* background-image: url(../logica/fundo-form.jpg);
+    background-position-y: -150;
+    background-size: cover;*/
+    
+
+}
+
+input, select, textarea, button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1em;
+    border-radius: 5px;
+}
+ button{
+    /* texto em CapsLock*/
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: rgb(161, 35, 35);
+    border: none;
+    opacity: 0.9;
+    flex: 1;
+    color: aliceblue;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+   }
+ .botao:hover {
+    background: #a8721c;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+ .botao, select{
+    /* aparecer o ponteiro do mouse quando passar em cima do botão/*/
+    cursor: pointer;
+}
